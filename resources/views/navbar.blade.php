@@ -7,10 +7,10 @@
         <div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 50%">
           <ul class="navbar-nav ">
             <li class="nav-item active">
-              <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link btn p-2" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link btn btn-info" href="{{ url('/create') }}">Create</a>
+              <a class="nav-link btn btn-info p-2" href="{{ url('/create') }}">Create New Students</a>
           </ul>
         </div>
       </nav>
